@@ -1,0 +1,554 @@
+Result for running the unit test:
+Unittest1.c
+Test against numHandCards function():
+Test player 0 with 6 handcard(s).
+Success! it passed.
+Test player 0 with 7 handcard(s).
+Success! it passed.
+Test player 0 with 8 handcard(s).
+Success! it passed.
+Test player 0 with 9 handcard(s).
+Success! it passed.
+Test player 0 with 10 handcard(s).
+Success! it passed.
+Test player 1 with 6 handcard(s).
+Success! it passed.
+Test player 1 with 7 handcard(s).
+Success! it passed.
+Test player 1 with 8 handcard(s).
+Success! it passed.
+Test player 1 with 9 handcard(s).
+Success! it passed.
+Test player 1 with 10 handcard(s).
+Success! it passed.
+All tests passed!
+Function 'main'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 10
+
+Function 'my_assert'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+
+File 'unittest1.c'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 10
+Creating 'unittest1.c.gcov'
+
+File 'my_assert.c'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+Creating 'my_assert.c.gcov'
+
+Unittest2.c
+Test against isGameOver():
+The deck has 3 empty supply card!  GAME is over!
+Success! it passed.
+All tests passed!
+Function 'main'
+Lines executed:82.61% of 23
+Branches executed:100.00% of 10
+Taken at least once:70.00% of 10
+Calls executed:75.00% of 12
+
+Function 'my_assert'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+
+File 'unittest2.c'
+Lines executed:82.61% of 23
+Branches executed:100.00% of 10
+Taken at least once:70.00% of 10
+Calls executed:75.00% of 12
+Creating 'unittest2.c.gcov'
+
+File 'my_assert.c'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+Creating 'my_assert.c.gcov'
+
+Unittest3.c
+Testing buyCard():
+Player 0 start with total 100 coins for 3 buy in total.
+Success! it passed.
+Pass: the card is not available for now.
+Success! it passed.
+Pass: do not have buy for this player 0.
+Success! it passed.
+Pass: not enough coins for now.
+Player 0 spend 8 for the 1 buy. Now he has 3 buy left. 
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Player 0 spend 8 for the 2 buy. Now he has 2 buy left. 
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Player 1 start with total 84 coins for 1 buy in total.
+Success! it passed.
+Pass: the card is not available for now.
+Success! it passed.
+Pass: do not have buy for this player 1.
+Success! it passed.
+Pass: not enough coins for now.
+Player 1 spend 8 for the 1 buy. Now he has 1 buy left. 
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+Success! it passed.
+All tests passed!
+Function 'main'
+Lines executed:100.00% of 37
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 24
+
+Function 'my_assert'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+
+File 'unittest3.c'
+Lines executed:100.00% of 37
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 24
+Creating 'unittest3.c.gcov'
+
+File 'my_assert.c'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+Creating 'my_assert.c.gcov'
+
+Unittest4.c
+Test against function updateCoins(): 
+Player 0 has 1 new cards in hand, worthy 1 coins. 
+Player 0 has 1 bonus besides the card(s). 
+Player 0 has 1 cards worthy 2 in hand 
+Success! it passed.
+Success! it passed.
+Player 1 has 1 new cards in hand, worthy 1 coins. 
+Player 1 has 2 new cards in hand, worthy 1 coins. 
+Player 1 has 3 new cards in hand, worthy 2 coins. 
+Player 1 has 1 bonus besides the card(s). 
+Player 1 has 3 cards worthy 5 in hand 
+Success! it passed.
+Success! it passed.
+All tests passed!
+Function 'main'
+Lines executed:100.00% of 21
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 14
+
+Function 'my_assert'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+
+File 'unittest4.c'
+Lines executed:100.00% of 21
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 14
+Creating 'unittest4.c.gcov'
+
+File 'my_assert.c'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:50.00% of 2
+Creating 'my_assert.c.gcov'
+
+cardtest1.c
+Test against playSmithy():
+
+1: Test if Smithy get your hand with +3 cards!
+Start: Player 0 hand count = 5, deck count =5,discard count =5
+Pass: handCount increased properly.
+ Fail on deck count!1 != 5.
+ Pass: deck count decreased properly.
+ Start: Player 1 hand count = 0, deck count =10,discard count =10
+Pass: deck count decreased properly for none-current player 1.
+ Start: Player 2 hand count = 0, deck count =10,discard count =10
+Pass: deck count decreased properly for none-current player 2.
+ Start: Player 3 hand count = 0, deck count =10,discard count =10
+Pass: deck count decreased properly for none-current player 3.
+ Something went wrong...1 != 0 
+Test 1 Failed!
+
+2: We can also test if the Smithy card effect the player's deck
+Success! it passed.
+Test 2 Passed!
+
+3: We can also test if the Smithy card effect the supply deck
+Success! it passed.
+Test 3 Passed!
+
+All tests passed!
+Function 'main'
+Lines executed:76.67% of 60
+Branches executed:100.00% of 30
+Taken at least once:63.33% of 30
+Calls executed:70.97% of 31
+
+Function 'my_assert'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+
+File 'cardtest1.c'
+Lines executed:76.67% of 60
+Branches executed:100.00% of 30
+Taken at least once:63.33% of 30
+Calls executed:70.97% of 31
+Creating 'cardtest1.c.gcov'
+
+File 'my_assert.c'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+Creating 'my_assert.c.gcov'
+
+cardtest2.c
+Test against playAdventurer():
+
+1: The deck should be decremented by one. 
+Fail! deckCount old = 5 new= 3 /nSomething went wrong...1 != 0 
+Test 1 Failed!
+
+2: The player should have two more treasure cards. 
+Pass:Two treasure cards are 4, 4
+Success! it passed.
+Test 2 Passed!
+
+3: The revealed card should have a difference of two. 
+Success! it passed.
+Test 3 Passed!
+
+4: Other player should not be effected! 
+Player 1 HandCount =0, DeckCount =10, DiscardCount =0
+Pass: player 1 is not effected!
+Player 2 HandCount =0, DeckCount =10, DiscardCount =0
+Pass: player 2 is not effected!
+Player 3 HandCount =0, DeckCount =10, DiscardCount =0
+Pass: player 3 is not effected!
+Success! it passed.
+Test 4 Passed!
+All tests passed!
+Function 'main'
+Lines executed:82.14% of 56
+Branches executed:100.00% of 28
+Taken at least once:53.57% of 28
+Calls executed:78.13% of 32
+
+Function 'my_assert'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+
+File 'cardtest2.c'
+Lines executed:82.14% of 56
+Branches executed:100.00% of 28
+Taken at least once:53.57% of 28
+Calls executed:78.13% of 32
+Creating 'cardtest2.c.gcov'
+
+File 'my_assert.c'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+Creating 'my_assert.c.gcov'
+
+cardtest3.c
+Test against great_hall card:
+Starting with handCount=5, deckCount=5, discardCount=0, number of Action =1, score =1
+
+1: Number of handCount should stay the same!
+Success! it passed.
+Test 1 Passed!
+2: Number of deckCount and discarded card should be decremented by 1 !
+Success! it passed.
+Test 2 Passed!
+3: Number of actions should be at most +1 more!
+Success! it passed.
+Test 3 Passed!
+4: Number of score should be +1 !
+Failed: Score = 1 didn't incremental by 1Something went wrong...1 != 0 
+Test 4 Failed!
+5: The rest of the player should not be effected!
+Player 1 Failed!action=1,handCount=5
+ rest:5,0:10,0
+Player 2 Failed!action=1,handCount=5
+ rest:5,0:10,0
+Player 3 Failed!action=1,handCount=5
+ rest:5,0:10,0
+Something went wrong...3 != 0 
+Test 5 Failed!
+All tests passed!
+Function 'main'
+Lines executed:81.82% of 66
+Branches executed:92.31% of 26
+Taken at least once:50.00% of 26
+Calls executed:78.57% of 42
+
+Function 'my_assert'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+
+File 'cardtest3.c'
+Lines executed:81.82% of 66
+Branches executed:92.31% of 26
+Taken at least once:50.00% of 26
+Calls executed:78.57% of 42
+Creating 'cardtest3.c.gcov'
+
+File 'my_assert.c'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+Creating 'my_assert.c.gcov'
+
+cardtest4.c
+Test against playVillage():
+Starting with handCount=5, deckCount=5, discardCount=0, number of Action =1
+
+1: Number of handCount should stay the same!
+Success! it passed.
+Test 1 Passed!
+2: Number of deck should be at decremented by 1!
+Success! it passed.
+Test 2 Passed!
+3: Number of actions should be at most +2 more!
+Failed: Actions does not increment by 2:5-1Something went wrong...1 != 0 
+Test 3 Failed!
+4: Number of supply should be +1 !
+Success! it passed.
+Test 4 Passed!
+5: The rest of the player should not be effected!
+Player 1 Passed!
+Player 2 Passed!
+Player 3 Passed!
+Success! it passed.
+Test 5 Passed!
+All tests passed!
+Function 'main'
+Lines executed:80.30% of 66
+Branches executed:100.00% of 28
+Taken at least once:57.14% of 28
+Calls executed:76.32% of 38
+
+Function 'my_assert'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+
+File 'cardtest4.c'
+Lines executed:80.30% of 66
+Branches executed:100.00% of 28
+Taken at least once:57.14% of 28
+Calls executed:76.32% of 38
+Creating 'cardtest4.c.gcov'
+
+File 'my_assert.c'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 2
+Creating 'my_assert.c.gcov'
+
+dominion coverage
+Function 'updateCoins'
+Lines executed:90.91% of 11
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:84.62% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:6.63% of 181
+Branches executed:16.31% of 141
+Taken at least once:1.42% of 141
+Calls executed:5.66% of 53
+
+Function 'playAmbassador'
+Lines executed:0.00% of 23
+Branches executed:0.00% of 26
+Taken at least once:0.00% of 26
+Calls executed:0.00% of 4
+
+Function 'playVillage'
+Lines executed:100.00% of 6
+No branches
+Calls executed:100.00% of 3
+
+Function 'playMinion'
+Lines executed:0.00% of 19
+Branches executed:0.00% of 18
+Taken at least once:0.00% of 18
+Calls executed:0.00% of 7
+
+Function 'playSmithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'playAdventurer'
+Lines executed:68.42% of 19
+Branches executed:66.67% of 12
+Taken at least once:41.67% of 12
+Calls executed:66.67% of 3
+
+Function 'getCost'
+Lines executed:10.00% of 30
+Branches executed:100.00% of 28
+Taken at least once:3.57% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:95.45% of 22
+Branches executed:100.00% of 6
+Taken at least once:83.33% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:50.00% of 24
+Branches executed:42.86% of 42
+Taken at least once:26.19% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:30.00% of 10
+Branches executed:25.00% of 8
+Taken at least once:12.50% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:100.00% of 20
+Branches executed:100.00% of 6
+Taken at least once:100.00% of 6
+Calls executed:100.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:100.00% of 2
+No branches
+Calls executed:100.00% of 1
+
+Function 'buyCard'
+Lines executed:100.00% of 13
+Branches executed:100.00% of 6
+Taken at least once:100.00% of 6
+Calls executed:100.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:93.55% of 62
+Branches executed:100.00% of 46
+Taken at least once:89.13% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:100.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:39.93% of 566
+Branches executed:42.45% of 417
+Taken at least once:24.94% of 417
+Calls executed:28.28% of 99
+Creating 'dominion.c.gcov'
+

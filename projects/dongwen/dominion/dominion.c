@@ -676,7 +676,7 @@ int playSmithy(struct gameState *state, int handPos){
 	int i;
 	int currentPlayer = whoseTurn(state);
 	//+3 cards
-	for (i = 0; i <= 3; i++)  //introduce the bug here! get 4 cards instead of 3.
+	for (i = 0; i <= 3; i++)
 		{
 		  drawCard(currentPlayer, state);
 		}
