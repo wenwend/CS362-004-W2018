@@ -97,7 +97,7 @@ int main(){
 
     for(p=1;p<numPlayer;p++){
     	endTurn(gCopy);
-    	if(gCopy->numActions == 1 && gCopy->deckCount[p]+gCopy->discardCount[p]==g->deckCount[p]+g->discardCount[p] && gCopy->handCount[p] == 5)
+    	if(gCopy->numActions == 1 && gCopy->deckCount[p]==5 && gCopy->handCount[p] == 5)
     	{
     		printf("Player %d Passed!\n",p);
     	}
