@@ -32,54 +32,30 @@ runtests: testDrawCard
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
-unittestresults.out: unittest1.c unittest2.c unittest3.c cardtest1.c unittest4.c dominion.o rngs.o
-	echo "Result for running the unit test:" > unittestresults.out
+randomtestadventurer.out: randomtestadventurer.c dominion.o rngs.o
+	echo "Result for running the Random test:" >randomtestadventurer.out
 	
-	echo "Unittest1.c" >>unittestresults.out
-	gcc -o utest1 -g unittest1.c dominion.o rngs.o $(CFLAGS)
-	./utest1 >> unittestresults.out
-	gcov -f -b unittest1.c >> unittestresults.out
-
-	echo "Unittest2.c" >>unittestresults.out
-	gcc -o utest2 -g unittest2.c dominion.o rngs.o $(CFLAGS)
-	./utest2 >> unittestresults.out
-	gcov -f -b unittest2.c >> unittestresults.out
-
-	echo "Unittest3.c" >>unittestresults.out
-	gcc -o utest3 -g unittest3.c dominion.o rngs.o $(CFLAGS)
-	./utest3 >> unittestresults.out
-	gcov -f -b unittest3.c >> unittestresults.out
-
-	echo "Unittest4.c" >>unittestresults.out
-	gcc -o utest4 -g unittest4.c dominion.o rngs.o $(CFLAGS)
-	./utest4 >> unittestresults.out
-	gcov -f -b unittest4.c >> unittestresults.out
-
-	echo "cardtest1.c" >>unittestresults.out
-	gcc -o ctest1 -g cardtest1.c dominion.o rngs.o $(CFLAGS)
-	./ctest1 >> unittestresults.out	
-	gcov -f -b cardtest1.c >> unittestresults.out
-
-	echo "cardtest2.c" >>unittestresults.out
-	gcc -o ctest2 -g cardtest2.c dominion.o rngs.o $(CFLAGS)
-	./ctest2  >> unittestresults.out
-	gcov -f -b cardtest2.c >> unittestresults.out
-
-	echo "cardtest3.c" >>unittestresults.out
-	gcc -o ctest3 -g cardtest3.c dominion.o rngs.o $(CFLAGS)
-	./ctest3  >> unittestresults.out
-	gcov -f -b cardtest3.c >> unittestresults.out
-
-	echo "cardtest4.c" >>unittestresults.out
-	gcc -o ctest4 -g cardtest4.c dominion.o rngs.o $(CFLAGS)
-	./ctest4  >> unittestresults.out
-	gcov -f -b cardtest4.c >> unittestresults.out
-
-	echo "dominion coverage" >>unittestresults.out
-	gcov -f -b dominion.c >>unittestresults.out
+	echo "Randomtestadventurer.c" >>randomtestadventurer.out
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o $(CFLAGS)
+	./randomtestadventurer >>randomtestadventurer.out
+	gcov -f -b dominion.c >>randomtestadventurer.out
+randomtestcard1.out: randomtestcard1.c dominion.o rngs.o
+	echo "Result for running the Random test:" >randomtestcard1.out
 	
+	echo "Randomtestcard1.c" >>randomtestcard1.out
+	gcc -o randomtestcard1 -g randomtestcard1.c dominion.o rngs.o $(CFLAGS)
+	./randomtestcard1 >>randomtestcard1.out
+	gcov -f -b dominion.c >>randomtestcard1.out
 
-all: playdom player testDrawCard testBuyCard badTestDrawCard unittestresults.out
+randomtestcard2.out: randomtestcard2.c dominion.o rngs.o
+	echo "Result for running the Random test:" >randomtestcard2.out
+	
+	echo "Randomtestcard2.c" >>randomtestcard2.out
+	gcc -o randomtestcard2 -g randomtestcard2.c dominion.o rngs.o $(CFLAGS)
+	./randomtestcard2 >>randomtestcard2.out
+	gcov -f -b dominion.c >>randomtestcard2.out
+
+all: playdom player testDrawCard testBuyCard badTestDrawCard randomtestadventurer.out randomtestcard1.out randomtestcard2.out
 
 clean:
-	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe testBuyCard badTestDrawCard utest1 utest2 utest3 utest4 ctest1 ctest2 ctest3 ctest4 
+	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe testBuyCard badTestDrawCard randomtestcard1 randomtestcard2 randomtestadventurer
